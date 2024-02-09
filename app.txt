@@ -1,0 +1,152 @@
+/* let anio = prompt('ingrese anio: ');
+console.log(`edad:  ${anio} `);
+
+let nacimiento = prompt('ingrese nacimiento: ');
+console.log(`edad:  ${nacimiento} `); */
+
+/* function edad(anio, nacimiento){
+    return anio - nacimiento;
+}
+
+console.log(edad(anio,nacimiento));
+ */
+
+
+/* let edad = (anio,nacimiento) => anio - nacimiento;
+console.log(edad(anio,nacimiento));
+ */
+
+
+/* let verificador = anio > nacimiento ? 'correcto' : 'incorrecto';
+console.log(verificador); */
+
+
+/* let semaforo = prompt('ingrese color semaforo:');
+console.log(`semaforoColor:  ${semaforo}`);
+
+switch (semaforo) {
+    case 'verde':
+        console.log('avance');
+        break;
+    case 'amarillo':
+        console.log('cuidado');
+        break;
+    case 'rojo':
+        console.log('frene');
+        break;
+    default:
+        console.log('no dunciona'):
+        break;
+} */
+/* 
+const loro = (mensaje) =>{
+    for(let i=1; i<=5; i++) {
+        console.log(mensaje);
+    }
+};
+loro('hola'); */
+
+
+/* let gastosSemana = [
+    [2, 1, 4, 2, 5, 1, 3],
+    [3, 4, 1, 2, 2, 1, 6],
+    [8, 2, 1, 2, 2, 3, 4],
+    [6, 7, 1, 1, 2, 5, 4],
+  ];
+  
+
+
+  
+// SUMAR UNA FILA
+
+const sumaFila = (fila) => {
+    let suma = 0;
+    for (let i = 0; i < gastosSemana[fila].length; i++) {
+        suma += gastosSemana[fila][i];
+    }
+    return suma;
+};
+console.log(sumaFila(1))
+
+
+// SUMAR UNA COLUMNA
+
+const sumaColumna = (columna) => {
+    let suma = 0;
+    for (let i = 0; i < gastosSemana.length; i++) {
+        suma += gastosSemana[i][columna];
+    }
+    return suma;
+};
+console.log(sumaColumna(1))        
+
+  // SUMAR UNA gastos MES
+
+  const sumaTotalMes = () => {
+    let suma = 0;
+    for (let i = 0; i < gastosSemana.length; i++) {
+        for (let j = 0; j < gastosSemana[i].length; j++) {
+            suma += gastosSemana[i][j];
+        }
+    }
+    return suma;
+};
+
+console.log(sumaTotalMes()); */
+
+
+/* let numeros = [0,3,2,5,8,6,1];
+
+for (let i = 0; i < numeros.length; i++) {
+    for (let j = 0; j < array.length-1; j++) {
+       if (numeros[j] > numeros[j+1]){
+        let temp = numeros[j];
+        numeros [j] = numeros[j+1];
+        numeros [j+1] =temp;
+    }
+}} */
+
+/* 
+//bubbleshort orfdden array por estatura
+
+let personas = [
+    {
+      nombre: "Dua",
+      apellido: "Lipa",
+      ocupacion: "cantante",
+      estatura: 173,
+    },
+    {
+      nombre: "Ariana",
+      apellido: "Grande",
+      ocupacion: "cantante",
+      estatura: 160,
+    },
+    {
+      nombre: "Taylor",
+      apellido: "Swift",
+      ocupacion: "cantante",
+      estatura: 180,
+    },
+  ];
+  
+  for (let i = 0; i < personas.length; i++) {
+    for (let j = 0; j < personas.length - 1; j++) {
+      if (personas[j].estatura > personas[j + 1].estatura) {
+        let temp = personas[j];
+        personas[j] = personas[j + 1];
+        personas[j + 1] = temp;
+      }
+    }
+  }
+
+  console.log(personas); */
+
+
+
+
+
+
+
+
+
